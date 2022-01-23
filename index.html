@@ -4,30 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="stlye.css" rel="stylesheet">
-  <title>Document</title>
+  <title>Brett Morrison | Weather App</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container" id="main-container">
     
-    <div class="title">API Weather App  </div>
-      <input
-        type="text"
-        autocomplete="off"
-        id="searchBar"
-        placeholder="Enter City Name"/>
-        
+      <div class="top-container">
+        <div class="title">API Weather App  </div>
+        <div class="top-data">
+          <div class ="loc" id="location-start"></div>
+          <div class="temp" id="temp-num"></div>
+          <div class="desc" id="desc-top"></div>
+        </div>
+      </div>
       
-    <div class="weather-function">
-      <div class ="loc" id="location">Location</div>
-      <div class = "wrap">
-      <div class="temp" id="temp">Temperature:</div>
-      <div class="feels"id="feels"></div>
-      <div class="wind" id="wind">Wind speed:</div>
-      <div class="desc" id="desc">Description:</div>
-      </div>
+      <div class="data-container" id="dc">
+        <input
+          type="text"
+          autocomplete="off"
+          id="searchBar"
+          placeholder="Enter City Name"/>
+        
+      <div class="weather-function" id="wf">
+        <div class ="loc" id="location"></div>
+        <div class ="wrap">
+        <div class="temp" id="temp"></div>
+        <div class="feels"id="feels"></div>
+        <div class="min" id="min"></div>
+        <div class="max" id="max"></div>
+        <div class="wind" id="wind"></div>
+        <div class="desc" id="desc"></div>
+        </div>
       </div>
     
+      </div>
+
     </div>
+
+    <div class="credits"><p><span id="img-Credit" onclick='popUp()'>Image Credits</span> | Powered by <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>
+    </div>
+    
+  </div>
+
+  <div id="credit-popup">
+    <button id="close" onclick='closePop()'>X</button>
+    <ul>
+      <li>Snowy Photo by Татьяна Чернышова🍒 from Pexels</li>
+      <li>Raining Photo by Josh Hild from Pexels</li>
+      <li>Clear Sky Photo by Toa Heftiba Şinca from Pexels</li>
+      <li>Overcast Photo by Alex Conchillos from Pexels</li>
+    </ul>
   </div>
   
 </body>
