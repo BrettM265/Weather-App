@@ -180,6 +180,10 @@ a {
     }
   }
   @media screen and (max-height: 844px) {
+    body{
+      height:120vh;
+      min-height:100vh;
+    }
 
     html{
       margin:0;
