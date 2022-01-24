@@ -76,11 +76,11 @@ let container = document.getElementsByClassName("container");
 
 // Image Credit Popup
 function popUp(){
-  document.getElementById("credit-popup").style.visibility = "visible";
+  document.getElementById("credit-popup").style.display = "block";
   document.getElementById("top-data").style.visibility = "hidden";
 }
 
 function closePop(){
-  document.getElementById("credit-popup").style.visibility = "hidden";
+  document.getElementById("credit-popup").style.display = "none";
   document.getElementById("top-data").style.visibility = "visible";
 }
