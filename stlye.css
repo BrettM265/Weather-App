@@ -133,6 +133,10 @@ a {
   #location{
     font-size:62px;
   }
+  #credit-popup{
+    width:50vw;
+    margin-top:-100%;
+  }
   .credits{
     margin-top:-10%;
   }
@@ -163,6 +167,10 @@ a {
     }
     .weather-function{
       font-size:42px;
+    }
+    #credit-popup{
+      width:60vw;
+      margin-top:-110%;
     }
     .credits{
       margin-top:-2%;
@@ -205,6 +213,10 @@ a {
     .weather-function{
       font-size:32px;
     }
+    #credit-popup{
+      width:90vw;
+      margin-top:-190%;
+    }
     .credits{
       margin-top: -2%;
     }
@@ -220,6 +232,9 @@ a {
     .data-container{
       min-height:55vh;
       max-height:60vh;
+    }
+    #credit-popup{
+      margin-top:-170%;
     }
     .credits{
       margin-top: -3%;
