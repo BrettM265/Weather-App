@@ -18,7 +18,7 @@ let container = document.getElementsByClassName("container");
     displayResults(data);
    
    
-   
+   // populating data
     function displayResults(data) {
       let locationStart = document.querySelector('#location-start')
       locationStart.innerText = `${data.name}, ${data.sys.country}`;
@@ -50,6 +50,8 @@ let container = document.getElementsByClassName("container");
       let desc = document.querySelector('#desc')
       desc.innerText = `- ${data.weather[0].description}`
 
+      // background image parameters
+
       if(data.weather[0].description.includes("snow") == true){
         document.getElementById("main-container").style.background = "url(weather-icon/snowy.jpg)";
       }
@@ -75,8 +77,10 @@ let container = document.getElementsByClassName("container");
 // Image Credit Popup
 function popUp(){
   document.getElementById("credit-popup").style.visibility = "visible";
+  document.getElementById("top-data").style.visibility = "hidden";
 }
 
 function closePop(){
   document.getElementById("credit-popup").style.visibility = "hidden";
+  document.getElementById("top-data").style.visibility = "visible";
 }
