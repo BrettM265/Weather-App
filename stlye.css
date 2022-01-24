@@ -117,7 +117,7 @@ a {
   }
   .data-container{
     min-height:32vh;
-    max-height:33vh;
+    max-height:50vh;
   }
   .weather-function{
     font-size:48px;
@@ -144,7 +144,7 @@ a {
     }
     .data-container{
       min-height:34vh;
-      max-height:39vh;
+      max-height:50vh;
     }
     .title{
       font-size:24px;
@@ -185,7 +185,7 @@ a {
     }
     .data-container{
       min-height:50vh;
-      max-height:60vh;
+      max-height:70vh;
     }
     .title{
       font-size:32px;
