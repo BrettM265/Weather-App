@@ -1,3 +1,7 @@
+body{
+  height:auto;
+}
+
 html{
   overflow:auto;
   background: Linear-gradient( rgb(2, 0, 5), rgb(128, 128, 128));
@@ -77,7 +81,7 @@ input:focus{
   margin-top:-2%;
 }
 #credit-popup{
-  visibility: hidden;
+  display: none;
   border: 5px solid black;
   width:25vw;
   color:black;
@@ -222,3 +226,4 @@ a {
     }
     
   }
+  
