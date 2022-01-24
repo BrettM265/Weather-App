@@ -1,5 +1,5 @@
 html{
-  overflow:hidden;
+  overflow:auto;
   background: Linear-gradient( rgb(2, 0, 5), rgb(128, 128, 128));
   background-repeat: no-repeat;
   color:azure;
