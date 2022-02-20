@@ -1,6 +1,7 @@
 body{
   height:auto;
   min-height:100vh;
+
 }
 
 html{
@@ -111,7 +112,6 @@ a {
   .container{
     width:60vw;
     margin: 20% auto;
-
   }
   .title{
     margin-bottom: 5%;
@@ -158,8 +158,7 @@ a {
       max-height:50vh;
     }
     .title{
-      font-size:24px;
-      margin-bottom:2%;
+      display:none;
     }
     #searchBar{
       font-size:32px;
@@ -179,12 +178,8 @@ a {
       margin-top:-2%;
     }
   }
-  @media screen and (max-height: 844px) {
-    body{
-      height:120vh;
-      min-height:100vh;
-    }
 
+  @media screen and (max-width: 414px) {
     html{
       margin:0;
       border: 0;
@@ -194,7 +189,7 @@ a {
       width:100%;
       height:90vh;
       border: 0px;
-      margin: 0%;
+      margin-top: 5vh;
     }
     .top-container{
       min-height:40vh;
@@ -205,10 +200,6 @@ a {
     .data-container{
       min-height:50vh;
       max-height:70vh;
-    }
-    .title{
-      font-size:32px;
-      margin-bottom: 20%;
     }
     #searchBar{
       font-size:22px;
@@ -229,16 +220,16 @@ a {
     }
   }
 
-  @media screen and (max-height: 736px) {
+  @media screen and (max-width: 390px) {
     #credit-popup{
-      margin-top:-170%;
+      width:90vw;
+      margin-top:-190%;
     }
   }
     
-  @media screen and (max-height: 667px) {
-    .title{
-      font-size:24px;
-      margin-bottom: 10%;
+  @media screen and (max-width: 375px) {
+    .container{
+      margin-top: 5vh;
     }
     .top-container{
       min-height:35vh;
@@ -253,6 +244,4 @@ a {
     .credits{
       margin-top: -0%;
     }
-    
   }
-  
