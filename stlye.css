@@ -158,7 +158,8 @@ a {
       max-height:50vh;
     }
     .title{
-      display:none;
+      font-size:24px;
+      margin-bottom:2%;
     }
     #searchBar{
       font-size:32px;
@@ -190,6 +191,9 @@ a {
       height:90vh;
       border: 0px;
       margin-top: 5vh;
+    }
+    .title{
+      display:none;
     }
     .top-container{
       min-height:40vh;
