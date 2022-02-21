@@ -190,7 +190,6 @@ a {
       width:100%;
       height:90vh;
       border: 0px;
-      margin-top: 5vh;
     }
     .title{
       display:none;
@@ -199,21 +198,22 @@ a {
       min-height:40vh;
     }
     .top-data{
-      font-size:42px;
+      padding-top:5vh;
+      font-size:11.2vw;
     }
     .data-container{
-      min-height:50vh;
-      max-height:70vh;
+      min-height:40vh;
+      max-height:50vh;
     }
     #searchBar{
-      font-size:22px;
+      font-size:5.8vw;
     }
     #location{
       padding-top:10px;
-      font-size:42px;
+      font-size:9.6vw;
     }
     .weather-function{
-      font-size:32px;
+      font-size:6.4vw;
     }
     #credit-popup{
       width:90vw;
@@ -232,15 +232,12 @@ a {
   }
     
   @media screen and (max-width: 375px) {
-    .container{
-      margin-top: 5vh;
-    }
     .top-container{
       min-height:35vh;
     }
     .data-container{
-      min-height:55vh;
-      max-height:60vh;
+      min-height:45vh;
+      max-height:50vh;
     }
     #credit-popup{
       margin-top:-170%;
