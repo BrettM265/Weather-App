@@ -7,11 +7,12 @@
   <title>Brett Morrison | Weather App</title>
 </head>
 <body>
+  <div class="wrapper">
   <div class="container" id="main-container">
     
       <div class="top-container">
-        <div class="title">API Weather App</div>
-        <div class="top-data" id="top-data">
+        <div class="title">API Weather App  </div>
+        <div class="top-data"id="top-data">
           <div class ="loc" id="location-start"></div>
           <div class="temp" id="temp-num"></div>
           <div class="desc" id="desc-top"></div>
@@ -38,24 +39,20 @@
       </div>
     
       </div>
-
     </div>
-
     <div class="credits"><p><span id="img-Credit" onclick='popUp()'>Image Credits</span> | Powered by <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>
     </div>
-    
+    <div id="credit-popup">
+      <button id="close" onclick='closePop()'>X</button>
+      <ul>
+        <li>Snowy Photo by Татьяна Чернышова🍒 from Pexels</li>
+        <li>Raining Photo by Josh Hild from Pexels</li>
+        <li>Clear Sky Photo by Toa Heftiba Şinca from Pexels</li>
+        <li>Overcast Photo by Alex Conchillos from Pexels</li>
+      </ul>
+    </div>
   </div>
-
-  <div id="credit-popup">
-    <button id="close" onclick='closePop()'>X</button>
-    <ul>
-      <li>Snowy Photo by Татьяна Чернышова🍒 from Pexels</li>
-      <li>Raining Photo by Josh Hild from Pexels</li>
-      <li>Clear Sky Photo by Toa Heftiba Şinca from Pexels</li>
-      <li>Overcast Photo by Alex Conchillos from Pexels</li>
-    </ul>
-  </div>
-  
+</div>
 </body>
 <script src="java.js"></script>
 
