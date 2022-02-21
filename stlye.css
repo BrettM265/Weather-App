@@ -181,6 +181,9 @@ a {
   }
 
   @media screen and (max-width: 414px) {
+    body{
+      max-height:140vh;
+    }
     html{
       margin:0;
       border: 0;
